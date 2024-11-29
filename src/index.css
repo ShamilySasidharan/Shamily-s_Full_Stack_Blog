@@ -13,3 +13,13 @@ body{
 .animateText{
     animation-duration: 10000ms;
 }
+
+.ql-container{
+    border:none !important
+}
+.ql-editor{
+    border:none !important
+}
+.ql-tooltip{
+    border:none !important
+}

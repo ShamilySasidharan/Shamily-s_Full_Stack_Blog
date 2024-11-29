@@ -4,6 +4,7 @@ import FeaturedPost from "../components/FeaturedPost";
 import PostListPage from "./PostListPage";
 const HomePage = () => {
   return (
+    // contain BREADCRUMS,INTRO,animated btn,CATEGORIES,FEATURED POST,POST LIST
     <div className="mt-4 flex flex-col gap-4">
       {/* BREADCRUMS*/}
         <div className="flex gap-4">
