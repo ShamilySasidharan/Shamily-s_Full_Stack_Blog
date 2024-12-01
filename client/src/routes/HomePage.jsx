@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import MainCatergories from "../components/MainCategories";
 import FeaturedPost from "../components/FeaturedPost";
-import PostListPage from "./PostListPage";
+import PostListItems from "../components/PostListItems"
 const HomePage = () => {
   return (
     // contain BREADCRUMS,INTRO,animated btn,CATEGORIES,FEATURED POST,POST LIST
@@ -75,7 +75,7 @@ const HomePage = () => {
     {/* POST LIST */}
     <div className="mt-8">
         <h1 className="font-medium text-3xl text-gray-800 px-2">Recent Post</h1>
-        <PostListPage/>
+        <PostListItems/>
     </div>
     </div>
   );
