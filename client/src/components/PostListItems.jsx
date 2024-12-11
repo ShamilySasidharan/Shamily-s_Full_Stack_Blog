@@ -31,7 +31,7 @@ const PostListItems = () => {
             <span className="text-gray-700 font-medium">Written by</span>
             <h1 className="text-blue-800 font-semibold">John Doe</h1>
             <span className="text-gray-700 font-medium">on</span>
-            <Link to="/test" className="text-blue-800 font-semibold">
+            <Link to="/singlePostPage" className="text-blue-800 font-semibold">
               Web design{" "}
             </Link>
             <span className="text-gray-700 font-medium">2 days ago</span>
@@ -79,7 +79,7 @@ const PostListItems = () => {
             <span className="text-gray-700 font-medium">Written by</span>
             <h1 className="text-blue-800 font-semibold">John Doe</h1>
             <span className="text-gray-700 font-medium">on</span>
-            <Link to="/test" className="text-blue-800 font-semibold">
+            <Link to="/posts" className="text-blue-800 font-semibold">
               Web design{" "}
             </Link>
             <span className="text-gray-700 font-medium">2 days ago</span>
@@ -142,7 +142,7 @@ const PostListItems = () => {
             </p>
           </div>
           {/* read more  */}
-          <Link to="/test" className="p-2 text-blue-800 sfont-semibold">
+          <Link to="/singlePostPage" className="p-2 text-blue-800 sfont-semibold">
             Read More
           </Link>
         </div>
